@@ -1,0 +1,41 @@
+.banner{
+    background: url('../img/women_bg.jpg');
+    background-size: cover;
+
+    height: 400px;
+    width: 100%;
+    // .video{
+    //     width: 400px;
+    //     height: 300px;
+    //     box-shadow: 5px 5px  50px 15px black;
+    // }
+}
+
+@media(max-width:767.98px){
+    .banner{
+        height: auto;
+    }
+}
+
+
+.sec-1{
+    .item{
+        // border-radius: tl tr br bl;
+        
+        // border: 1px solid black;
+        box-shadow: 0 5px 5px black;
+        border-radius:  30px 30px;
+        overflow: hidden;
+        margin-top: 10px;
+        
+        img{
+            width: 100%;
+            max-height: 200px;
+        }
+        .info{
+            
+            background: #414141;
+           
+        }
+    }
+}

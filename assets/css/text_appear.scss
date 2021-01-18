@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #dfdfdf;    
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    
+    border: 1px solid black;
+    height: 100vh;
+}
+.text1-div{
+    position: relative;
+    p{
+        // color: transparent;
+        // text-shadow: 0 0 0 green;
+       animation-name: text-appear1 ;
+       animation-duration: 2s;
+       animation-fill-mode: forwards;
+       
+        
+    }
+}
+
+
+// ANIMATION
+
+@keyframes text-appear1{
+    0%{
+        // color: transparent;
+        width: 0%;
+        height: 10%;
+        overflow: hidden;
+        // white-space: nowrap;
+    }
+    100%{
+        width: 100%;
+        height: 10%;
+        overflow: hidden;
+        // white-space: nowrap;
+    }
+}

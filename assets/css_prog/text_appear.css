@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #dfdfdf;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid black;
+  height: 100vh;
+}
+
+.text1-div {
+  position: relative;
+}
+
+.text1-div p {
+  -webkit-animation-name: text-appear1;
+          animation-name: text-appear1;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes text-appear1 {
+  0% {
+    width: 0%;
+    height: 10%;
+    overflow: hidden;
+  }
+  100% {
+    width: 100%;
+    height: 10%;
+    overflow: hidden;
+  }
+}
+
+@keyframes text-appear1 {
+  0% {
+    width: 0%;
+    height: 10%;
+    overflow: hidden;
+  }
+  100% {
+    width: 100%;
+    height: 10%;
+    overflow: hidden;
+  }
+}
+/*# sourceMappingURL=text_appear.css.map */

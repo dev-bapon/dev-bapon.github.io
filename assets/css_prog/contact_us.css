@@ -1,0 +1,44 @@
+.cont-body {
+  position: relative;
+}
+
+.cont-body .bg-img {
+  position: absolute;
+  height: 150%;
+  width: 30%;
+  left: 30%;
+  top: -20px;
+  z-index: -1;
+}
+
+.cont-body .grp-1 img {
+  width: 400px;
+}
+
+@media (max-width: 575.98px) {
+  .cont-body .bg-img {
+    width: 100%;
+    left: 0;
+  }
+  .cont-body .grp-1 img {
+    width: 100%;
+  }
+}
+
+.social a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.social a i {
+  width: 10px;
+  height: 10px;
+  padding: 10px;
+  color: #414143;
+}
+
+.social a:hover i {
+  color: #661C1d;
+}
+/*# sourceMappingURL=contact_us.css.map */

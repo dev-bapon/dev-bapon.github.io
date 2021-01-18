@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EACN,UAAU,EAAE,IAAI;CAKlB;;AAND,AAEI,SAFK,AAEJ,MAAM,CAAA;EACH,SAAS,EAAE,UAAU;CAExB",
+    "sources": [
+        "../scss_prog/flip_animate.scss"
+    ],
+    "names": [],
+    "file": "flip_animate.css"
+}

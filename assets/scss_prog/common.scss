@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&display=swap');
+* {
+    font-family: 'Alegreya', serif;
+}
+
+$bg-color2:#BC3C5F;
+@font-face {
+    font-family: 'montserrat-regular';
+    src: url('../fonts_prog/Montserrat-Regular.otf');
+}
+
+@font-face {
+    font-family: 'montserrat-bold';
+    src: url('../fonts_prog/Montserrat-Bold.otf');
+}
+
+@font-face {
+    font-family: 'montserrat-light';
+    src: url('../fonts_prog/Montserrat-Light.otf');
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts_prog/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'myriad-pro';
+    src: url('../fonts_prog/Myriad Pro Semibold.ttf');
+}
+
+@font-face {
+    font-family: 'myriad-pro-regular';
+    src: url('../fonts_prog/Myriad Pro Regular.ttf');
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('../fonts_prog/FontsFree-Net-Proxima-Nova-Light.otf');
+}
+
+@font-face {
+    font-family: 'agaramondpro-bold';
+    src: url('../fonts_prog/AGaramondPro-Bold.otf');
+}
+
+@font-face {
+    font-family: 'agaramondpro-regular';
+    src: url('../fonts_prog/AGaramondPro-Regular.otf');
+}
+
+@font-face {
+    font-family: 'ethnocentric';
+    src: url('../fonts_prog/ethnocentric_rg.ttf');
+}
+
+@font-face {
+    font-family: 'chaparral-pro';
+    src: url('../fonts_prog/ChaparralPro-Regular.otf');
+}
+@font-face {
+    font-family: 'army-reg';
+    src: url('../fonts_prog/ArmyTributeDemoRegular.ttf');
+}
+@font-face {
+    font-family: 'bombaya-reg';
+    src: url('../fonts_prog/Bombaya-Regular.ttf');
+}
+
+
+
+
+// FONT SIZE
+.font-size-1 {
+    font-size: 1rem;
+}
+
+.font-size-1_2 {
+    font-size: 1.5rem;
+}
+
+
+// BACKGROUND
+.bg-col1 {
+    background: #74CCD1 !important;
+}
+
+.bg-col2 {
+    background: #38373D !important;
+}
+
+.bg-col3 {
+    background: #EA8825 !important;
+}
+.bg-col4 {
+    background: #E05857 !important;
+}
+
+
+
+// TEXT COLOR
+
+.text-col1 {
+    color: #74CCD1 !important;
+}
+
+.text-col2 {
+    color: #111 !important;
+}
+
+.text-col3 {
+    color: #EA8825 !important;
+}
+
+.text-col4 {
+    color: #000 !important;
+}
+
+.text-col5 {
+    color: #000 !important;
+}
+
+.text-col6 {
+    color: #000 !important;
+}
+
+.text-col7 {
+    color: #000 !important;
+}
+
+
+
+// TEXT STYLE
+.text-italic{
+    font-style: italic;
+}
+
+// FONT
+
+.font-arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.font-calibri{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.font-mont-re {
+    font-family: 'montserrat-regular', Arial, Helvetica, sans-serif !important;
+}
+
+.font-mont-bo {
+    font-family: 'montserrat-bold', Arial, Helvetica, sans-serif !important;
+}
+
+.font-mont-li {
+    font-family: 'montserrat-light', Arial, Helvetica, sans-serif !important;
+}
+
+.font-robo {
+    font-family: 'roboto' Arial, Helvetica, sans-serif !important;
+}
+
+.font-ethnocentric {
+    font-family: 'ethnocentric', Arial, Helvetica, sans-serif !important;
+}
+
+.font-myriad {
+    font-family: 'myriad-pro', Arial, Helvetica, sans-serif !important;
+}
+
+.font-myriad-regular {
+    font-family: 'myriad-pro', Arial, Helvetica, sans-serif !important;
+}
+
+.font-agar-bold {
+    font-family: 'agaramondpro-bold', Arial, Helvetica, sans-serif !important;
+}
+
+.font-agar-regular {
+    font-family: 'agaramondpro-regular', Arial, Helvetica, sans-serif !important;
+}
+
+.font-chaparral-pro {
+    font-family: 'chaparral-pro', Arial, Helvetica, sans-serif !important;
+}
+
+.font-alegreya {
+    font-family: 'Alegreya', serif !important;
+}
+.font-army-reg {
+    font-family: 'army-reg', serif !important;
+}
+.font-bombaya-reg {
+    font-family: 'bombaya-reg', serif !important;
+}
+
+
+
+
+
+.btn-style1 {
+    border-radius: 0 !important;
+}
+
+// SHADOW
+.shadow1 {
+    box-shadow: 2px 2px 2px black;
+}
+
+// BORDER
+
+.bord1{
+    border: 2px solid #EA8825;
+    border-radius:50%;
+}
+
+// Z index
+.z-index-2 {
+    z-index: 2;
+}
+
+
+// TAGS
+.hr{
+//    background-color:#F8BA1F;
+//    width: 100%;
+//    height: 1px;
+   border-bottom: 1px solid #F8BA1F ;
+}
